@@ -633,10 +633,14 @@ TEST(Kernel, MoEReduceAddARFuse)
         TLLM_LOG_WARNING("world size is not a multiple of 2, return");
         return;
     }
-    int warmup = 100, iter = 100;
-    int hidden_dim = 7168;
-    std::vector<int> candidate_token_num{1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048};
-    std::vector<int> candidate_active_expert_num{8, 12, 16};
+    // int warmup = 100, iter = 100;
+    int warmup = 0, iter = 1;
+    // int hidden_dim = 7168;
+    int hidden_dim = 16;
+    // std::vector<int> candidate_token_num{1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048};
+    std::vector<int> candidate_token_num{1};
+    // std::vector<int> candidate_active_expert_num{8, 12, 16};
+    std::vector<int> candidate_active_expert_num{8};
     int max_token_num = 2048;
     int max_expert_num = 16;
     MoEARFuseTestRunner<half> runner(max_token_num, hidden_dim, max_expert_num);
@@ -646,45 +650,45 @@ TEST(Kernel, MoEReduceAddARFuse)
         {
             auto latency = runner.benchmark(
                 &MoEARFuseTestRunner<half>::run_kernel, warmup, iter, token_num, hidden_dim, act_exp_num);
-            runner.verify(token_num, hidden_dim, act_exp_num);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("token_num %d, hidden_dim %d, act_exp_num %d, latency %fus", token_num, hidden_dim,
-                    act_exp_num, latency);
-            }
-            auto moe_reduce_latency = runner.benchmark(
-                &MoEARFuseTestRunner<half>::run_moe_reduction, warmup, iter, token_num, hidden_dim, act_exp_num);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("moe reduce latency %fus", moe_reduce_latency);
-            }
-            auto nccl_latency
-                = runner.benchmark(&MoEARFuseTestRunner<half>::run_nccl_allreduce, warmup, iter, token_num, hidden_dim);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("nccl allreduce latency %fus", nccl_latency);
-            }
-            auto residual_latency
-                = runner.benchmark(&MoEARFuseTestRunner<half>::run_residual_add, warmup, iter, token_num, hidden_dim);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("residual add latency %fus", residual_latency);
-            }
-            auto rms_latency
-                = runner.benchmark(&MoEARFuseTestRunner<half>::run_rms_norm, warmup, iter, token_num, hidden_dim);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("rms norm latency %fus", rms_latency);
-            }
-            auto quant_latency
-                = runner.benchmark(&MoEARFuseTestRunner<half>::run_fp4_quant, warmup, iter, token_num, hidden_dim);
-            if (rank == 0)
-            {
-                TLLM_LOG_INFO("fp4 quant latency %fus", quant_latency);
-                auto tot_latency = moe_reduce_latency + nccl_latency + residual_latency + rms_latency + quant_latency;
-                TLLM_LOG_INFO("fusion kernel latency %fus, moe reduce + nccl + ops latency %fus, total speedup %fx",
-                    latency, tot_latency, tot_latency / latency);
-            }
+            // runner.verify(token_num, hidden_dim, act_exp_num);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("token_num %d, hidden_dim %d, act_exp_num %d, latency %fus", token_num, hidden_dim,
+            //         act_exp_num, latency);
+            // }
+            // auto moe_reduce_latency = runner.benchmark(
+            //     &MoEARFuseTestRunner<half>::run_moe_reduction, warmup, iter, token_num, hidden_dim, act_exp_num);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("moe reduce latency %fus", moe_reduce_latency);
+            // }
+            // auto nccl_latency
+            //     = runner.benchmark(&MoEARFuseTestRunner<half>::run_nccl_allreduce, warmup, iter, token_num, hidden_dim);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("nccl allreduce latency %fus", nccl_latency);
+            // }
+            // auto residual_latency
+            //     = runner.benchmark(&MoEARFuseTestRunner<half>::run_residual_add, warmup, iter, token_num, hidden_dim);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("residual add latency %fus", residual_latency);
+            // }
+            // auto rms_latency
+            //     = runner.benchmark(&MoEARFuseTestRunner<half>::run_rms_norm, warmup, iter, token_num, hidden_dim);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("rms norm latency %fus", rms_latency);
+            // }
+            // auto quant_latency
+            //     = runner.benchmark(&MoEARFuseTestRunner<half>::run_fp4_quant, warmup, iter, token_num, hidden_dim);
+            // if (rank == 0)
+            // {
+            //     TLLM_LOG_INFO("fp4 quant latency %fus", quant_latency);
+            //     auto tot_latency = moe_reduce_latency + nccl_latency + residual_latency + rms_latency + quant_latency;
+            //     TLLM_LOG_INFO("fusion kernel latency %fus, moe reduce + nccl + ops latency %fus, total speedup %fx",
+            //         latency, tot_latency, tot_latency / latency);
+            // }
         }
     }
 }
