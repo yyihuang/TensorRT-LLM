@@ -44,6 +44,13 @@ struct LamportComm
         {
             atomicAdd(counter_ptr, 1);
         }
+        if (blockIdx.x == 0 && threadIdx.x == 0)
+        {
+            printf(
+                "Rank %d: flag_value %d, clear_size %d, counter %d, comm_size %d, data_buf[0] %p, data_buf[1] %p, "
+                "clear_buf %p\n",
+                rank, flag_value, clear_size, *counter_ptr, comm_size, data_bufs[0], data_bufs[1], clear_buf);
+        }
     }
 
     __device__ __forceinline__ void update(int new_clear_size)
@@ -183,8 +190,8 @@ __device__ __forceinline__ float4 ld_global_volatile(float4* addr)
 {
     float4 val;
     asm volatile("ld.volatile.global.v4.f32 {%0, %1, %2, %3}, [%4];"
-                 : "=f"(val.x), "=f"(val.y), "=f"(val.z), "=f"(val.w)
-                 : "l"(addr));
+        : "=f"(val.x), "=f"(val.y), "=f"(val.z), "=f"(val.w)
+        : "l"(addr));
     return val;
 }
 
@@ -338,6 +345,7 @@ __global__ void moereduce_allreduce_fusion_kernel_oneshot_lamport(MoeReductionAl
             reinterpret_cast<float4*>(comm.data_bufs[r])[params.rank * tot_access + idx]
                 = *reinterpret_cast<float4*>(val);
         }
+        printf("Rank %d [%d-%d] store vec_t values at address %p with flag %d \n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[r]) + params.rank * tot_access + idx, *comm.flag_ptr);
     }
 
     // * Clear previous buffer
@@ -364,6 +372,7 @@ __global__ void moereduce_allreduce_fusion_kernel_oneshot_lamport(MoeReductionAl
                 done &= !is_neg_zero(vals[r]);
             }
         }
+        printf("Rank %d [%d-%d] get vec_t values at address %p with flag %d\n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[params.rank]) + (r * tot_access + idx), *comm.flag_ptr);
         float4 sum_val = vals[0];
 #pragma unroll
         for (int r = 1; r < NRanks; ++r)
