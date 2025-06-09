@@ -76,6 +76,11 @@ Workspace::Workspace(int rank, int tp_size, int max_token_num, int hidden_dim,
     TLLM_CUDA_CHECK(
         cudaMemcpy(m_workspace, workspace.data(), workspace.size() * sizeof(void*), cudaMemcpyHostToDevice));
     lamport_initialize(m_ipc_mem_handles[2].getCommPtrs()[rank], lamport_buffer_size, 0);
+
+    for (int r = 0; r < tp_size; ++r)
+    {
+        printf("Rank %d: local lamport buffer[%d] %p\n", rank, r, m_ipc_mem_handles[2].getCommPtrs()[r]);
+    }
 }
 
 Workspace::~Workspace()
