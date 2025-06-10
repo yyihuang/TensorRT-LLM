@@ -1,0 +1,1507 @@
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+Rank 1: workspace[0] 0x7f7856600000
+Rank 1: workspace[1] 0x7f7856400000
+Rank 1: workspace[2] 0x7f7856800000
+Rank 1: workspace[3] 0x7f7856a00000
+Rank 1: workspace[4] 0x7f7856e00000
+Rank 1: workspace[5] 0x7f7856c00000
+Rank 1: workspace[6] 0x7f7857000000
+Rank 1: workspace[7] 0x7f7857200000
+Rank 1: workspace[8] 0x7f7857600000
+Rank 1: workspace[9] 0x7f7857400000
+Rank 1: workspace[10] 0x7f7857800000
+Rank 1: workspace[11] 0x7f7857a00000
+Rank 1: workspace[12] 0x7f7856260400
+Rank 1: local lamport buffer[0] 0x7f7857600000
+Rank 1: local lamport buffer[1] 0x7f7857400000
+Rank 1: local lamport buffer[2] 0x7f7857800000
+Rank 1: local lamport buffer[3] 0x7f7857a00000
+Rank 2: workspace[0] 0x7f1bae600000
+Rank 2: workspace[1] 0x7f1bae800000
+Rank 2: workspace[2] 0x7f1bae400000
+Rank 2: workspace[3] 0x7f1baea00000
+Rank 2: workspace[4] 0x7f1baee00000
+Rank 2: workspace[5] 0x7f1baf000000
+Rank 2: workspace[6] 0x7f1baec00000
+Rank 2: workspace[7] 0x7f1baf200000
+Rank 2: workspace[8] 0x7f1baf600000
+Rank 2: workspace[9] 0x7f1baf800000
+Rank 2: workspace[10] 0x7f1baf400000
+Rank 2: workspace[11] 0x7f1bafa00000
+Rank 2: workspace[12] 0x7f1bae260400
+Rank 2: local lamport buffer[0] 0x7f1baf600000
+Rank 2: local lamport buffer[1] 0x7f1baf800000
+Rank 2: local lamport buffer[2] 0x7f1baf400000
+Rank 2: local lamport buffer[3] 0x7f1bafa00000
+Rank 0: workspace[0] 0x7f091e400000
+Rank 0: workspace[1] 0x7f091e600000
+Rank 0: workspace[2] 0x7f091e800000
+Rank 0: workspace[3] 0x7f091ea00000
+Rank 0: workspace[4] 0x7f091ec00000
+Rank 0: workspace[5] 0x7f091ee00000
+Rank 0: workspace[6] 0x7f091f000000
+Rank 0: workspace[7] 0x7f091f200000
+Rank 0: workspace[8] 0x7f091f400000
+Rank 0: workspace[9] 0x7f091f600000
+Rank 0: workspace[10] 0x7f091f800000
+Rank 0: workspace[11] 0x7f091fa00000
+Rank 0: workspace[12] 0x7f091e260400
+Rank 0: local lamport buffer[0] 0x7f091f400000
+Rank 0: local lamport buffer[1] 0x7f091f600000
+Rank 0: local lamport buffer[2] 0x7f091f800000
+Rank 0: local lamport buffer[3] 0x7f091fa00000
+Rank 3: workspace[0] 0x7f4d1e600000
+Rank 3: workspace[1] 0x7f4d1e800000
+Rank 3: workspace[2] 0x7f4d1ea00000
+Rank 3: workspace[3] 0x7f4d1e400000
+Rank 3: workspace[4] 0x7f4d1ee00000
+Rank 3: workspace[5] 0x7f4d1f000000
+Rank 3: workspace[6] 0x7f4d1f200000
+Rank 3: workspace[7] 0x7f4d1ec00000
+Rank 3: workspace[8] 0x7f4d1f600000
+Rank 3: workspace[9] 0x7f4d1f800000
+Rank 3: workspace[10] 0x7f4d1fa00000
+Rank 3: workspace[11] 0x7f4d1f400000
+Rank 3: workspace[12] 0x7f4d1e260400
+Rank 3: local lamport buffer[0] 0x7f4d1f600000
+Rank 3: local lamport buffer[1] 0x7f4d1f800000
+Rank 3: local lamport buffer[2] 0x7f4d1fa00000
+Rank 3: local lamport buffer[3] 0x7f4d1f400000
+Rank 0: flag_value 0, clear_size 0, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010Rank 2: flag_value 0, clear_size 0, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t valuesRank 1: flag_value 0, clear_size 0, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+ for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t valuRank 3: flag_value 0, clear_size 0, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1 vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_siz
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value es at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, date 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1bfor rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] a_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values ataf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flstore vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f785vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7 address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 forag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050 for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t7440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rankf4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0]  values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+Rank 2: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf680000, data_buf[1] 0x7f1baf880000, clear_buf 0x7f1baf440000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf680040 for rank 0 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf680050 for rank 0 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf880040 for rank 1 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf880050 for rank 1 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf480040 for rank 2 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf480050 for rank 2 with flag 2 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa80040 for rank 3 with flag 2 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa80050 for rank 3 with flag 2 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480000 for rank 0 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480010 for rank 0 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480020 for rank 1 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480030 for rank 1 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480040 for rank 2 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480050 for rank 2 with flag 2
+Rank 2 [0-0] get vec_t values at address 0x7f1baf480060 for rank 3 with flag 2
+Rank 2 [0-1] get vec_t values at address 0x7f1baf480070 for rank 3 with flag 2
+Rank 2: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf600000, data_buf[1] 0x7f1baf800000, clear_buf 0x7f1baf480000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf600040 for rank 0 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf600050 for rank 0 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf800040 for rank 1 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf800050 for rank 1 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf400040 for rank 2 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf400050 for rank 2 with flag 0 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa00040 for rank 3 with flag 0 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa00050 for rank 3 with flag 0 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400000 for rank 0 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400010 for rank 0 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400020 for rank 1 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400030 for rank 1 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400040 for rank 2 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400050 for rank 2 with flag 0
+Rank 2 [0-0] get vec_t values at address 0x7f1baf400060 for rank 3 with flag 0
+Rank 2 [0-1] get vec_t values at address 0x7f1baf400070 for rank 3 with flag 0
+Rank 2: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f1baf640000, data_buf[1] 0x7f1baf840000, clear_buf 0x7f1baf400000
+Rank 2 [0-0] store vec_t values at address 0x7f1baf640040 for rank 0 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf640050 for rank 0 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf840040 for rank 1 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf840050 for rank 1 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1baf440040 for rank 2 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1baf440050  1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+Rank 1: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857680000, data_buf[1] 0x7f7857480000, clear_buf 0x7f7857440000
+Rank 1 [0-0] store vec_t values at address 0x7f7857680020 for rank 0 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857680030 for rank 0 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857480020 for rank 1 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857480030 for rank 1 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857880020 for rank 2 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857880030 for rank 2 with flag 2 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a80020 for rank 3 with flag 2 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a80030 for rank 3 with flag 2 
+Rank 1 [0-0] get vec_t values at address 0x7f7857480000 for rank 0 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480010 for rank 0 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480020 for rank 1 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480030 for rank 1 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480040 for rank 2 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480050 for rank 2 with flag 2
+Rank 1 [0-0] get vec_t values at address 0x7f7857480060 for rank 3 with flag 2
+Rank 1 [0-1] get vec_t values at address 0x7f7857480070 for rank 3 with flag 2
+Rank 1: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857600000, data_buf[1] 0x7f7857400000, clear_buf 0x7f7857480000
+Rank 1 [0-0] store vec_t values at address 0x7f7857600020 for rank 0 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857600030 for rank 0 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857400020 for rank 1 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857400030 for rank 1 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857800020 for rank 2 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857800030 for rank 2 with flag 0 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a00020 for rank 3 with flag 0 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a00030 for rank 3 with flag 0 
+Rank 1 [0-0] get vec_t values at address 0x7f7857400000 for rank 0 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400010 for rank 0 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400020 for rank 1 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400030 for rank 1 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400040 for rank 2 with flag 0
+Rank 1 [0-1] get vec_t values at address 0x7f7857400050 for rank 2 with flag 0
+Rank 1 [0-0] get vec_t values at address 0x7f7857400060 for rank 3 with flag 0
+Rank 1 [0-1] get vec flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for rank 1 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa40060 for rank 2 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa40070 for rank 2 with flag 1 
+Rank 3 [0-0] store vec_t store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+Rank 0: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f480000, data_buf[1] 0x7f091f680000, clear_buf 0x7f091f440000
+Rank 0 [0-0] store vec_t values at address 0x7f091f480000 for rank 0 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f480010 for rank 0 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f680000 for rank 1 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f680010 for rank 1 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091f880000 for rank 2 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091f880010 for rank 2 with flag 2 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa80000 for rank 3 with flag 2 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa80010 for rank 3 with flag 2 
+Rank 0 [0-0] get vec_t values at address 0x7f091f480000 for rank 0 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480010 for rank 0 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480020 for rank 1 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480030 for rank 1 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480040 for rank 2 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480050 for rank 2 with flag 2
+Rank 0 [0-0] get vec_t values at address 0x7f091f480060 for rank 3 with flag 2
+Rank 0 [0-1] get vec_t values at address 0x7f091f480070 for rank 3 with flag 2
+Rank 0: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f400000, data_buf[1] 0x7f091f600000, clear_buf 0x7f091f480000
+Rank 0 [0-0] store vec_t values at address 0x7f091f400000 for rank 0 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f400010 for rank 0 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f600000 for rank 1 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f600010 for rank 1 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091f800000 for rank 2 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091f800010 for rank 2 with flag 0 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa00000 for rank 3 with flag 0 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa00010 for rank 3 with flag 0 
+Rank 0 [0-0] get vec_t values at address 0x7f091f400000 for rank 0 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400010 for rank 0 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400020 for rank 1 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400030 for rank 1 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400040 for rank 2 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400050 for rank 2 with flag 0
+Rank 0 [0-0] get vec_t values at address 0x7f091f400060 for rank 3 with flag 0
+Rank 0 [0-1] get vec_t values at address 0x7f091f400070 for rank 3 with flag 0
+Rank 0: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f091f440000, data_buf[1] 0x7f091f640000, clear_buf 0x7f091f400000
+Rank 0 [0-0] store vec_t values at address 0x7f091f440000 for rank 0 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f440010 for rank 0 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f640000 for rank 1 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f09for rank 2 with flag 1 
+Rank 2 [0-0] store vec_t values at address 0x7f1bafa40040 for rank 3 with flag 1 
+Rank 2 [0-1] store vec_t values at address 0x7f1bafa40050 for rank 3 with flag 1 
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440000 for rank 0 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440010 for rank 0 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440020 for rank 1 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440030 for rank 1 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440040 for rank 2 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440050 for rank 2 with flag 1
+Rank 2 [0-0] get vec_t values at address 0x7f1baf440060 for rank 3 with flag 1
+Rank 2 [0-1] get vec_t values at address 0x7f1baf440070 for rank 3 with flag 1
+_t values at address 0x7f7857400070 for rank 3 with flag 0
+Rank 1: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f7857640000, data_buf[1] 0x7f7857440000, clear_buf 0x7f7857400000
+Rank 1 [0-0] store vec_t values at address 0x7f7857640020 for rank 0 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857640030 for rank 0 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857440020 for rank 1 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857440030 for rank 1 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857840020 for rank 2 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857840030 for rank 2 with flag 1 
+Rank 1 [0-0] store vec_t values at address 0x7f7857a40020 for rank 3 with flag 1 
+Rank 1 [0-1] store vec_t values at address 0x7f7857a40030 for rank 3 with flag 1 
+Rank 1 [0-0] get vec_t values at address 0x7f7857440000 for rank 0 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440010 for rank 0 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440020 for rank 1 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440030 for rank 1 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440040 for rank 2 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440050 for rank 2 with flag 1
+Rank 1 [0-0] get vec_t values at address 0x7f7857440060 for rank 3 with flag 1
+Rank 1 [0-1] get vec_t values at address 0x7f7857440070 for rank 3 with flag 1
+values at address 0x7f4d1f440060 for rank 3 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440000 for rank 0 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440010 for rank 0 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440020 for rank 1 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440030 for rank 1 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440040 for rank 2 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440050 for rank 2 with flag 1
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f440060 for rank 3 with flag 1
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f440070 for rank 3 with flag 1
+Rank 3: flag_value 2, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f680000, data_buf[1] 0x7f4d1f880000, clear_buf 0x7f4d1f440000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f680060 for rank 0 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f680070 for rank 0 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f880060 for rank 1 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f880070 for rank 1 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa80060 for rank 2 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa80070 for rank 2 with flag 2 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480000 for rank 0 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480010 for rank 0 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480020 for rank 1 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480030 for rank 1 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480040 for rank 2 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480050 for rank 2 with flag 2
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f480060 for rank 3 with flag 2
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f480070 for rank 3 with flag 2
+Rank 3: flag_value 0, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f600000, data_buf[1] 0x7f4d1f800000, clear_buf 0x7f4d1f480000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f600060 for rank 0 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f600070 for rank 0 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f800060 for rank 1 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f800070 for rank 1 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1fa00060 for rank 2 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1fa00070 for rank 2 with flag 0 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0 
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400000 for rank 0 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400010 for rank 0 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400020 for rank 1 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400030 for rank 1 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400040 for rank 2 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400050 for rank 2 with flag 0
+Rank 3 [0-0] get vec_t values at address 0x7f4d1f400060 for rank 3 with flag 0
+Rank 3 [0-1] get vec_t values at address 0x7f4d1f400070 for rank 3 with flag 0
+Rank 3: flag_value 1, clear_size 64, counter 1, comm_size 262144, data_buf[0] 0x7f4d1f640000, data_buf[1] 0x7f4d1f840000, clear_buf 0x7f4d1f400000
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f640060 for rank 0 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f640070 for rank 0 with flag 1 
+Rank 3 [0-0] store vec_t values at address 0x7f4d1f840060 for rank 1 with flag 1 
+Rank 3 [0-1] store vec_t values at address 0x7f4d1f840070 for1f640010 for rank 1 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091f840000 for rank 2 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091f840010 for rank 2 with flag 1 
+Rank 0 [0-0] store vec_t values at address 0x7f091fa40000 for rank 3 with flag 1 
+Rank 0 [0-1] store vec_t values at address 0x7f091fa40010 for rank 3 with flag 1 
+Rank 0 [0-0] get vec_t values at address 0x7f091f440000 for rank 0 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440010 for rank 0 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440020 for rank 1 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440030 for rank 1 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440040 for rank 2 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440050 for rank 2 with flag 1
+Rank 0 [0-0] get vec_t values at address 0x7f091f440060 for rank 3 with flag 1
+Rank 0 [0-1] get vec_t values at address 0x7f091f440070 for rank 3 with flag 1
+ rank 1 with flag 1

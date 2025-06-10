@@ -634,7 +634,7 @@ TEST(Kernel, MoEReduceAddARFuse)
         return;
     }
     // int warmup = 100, iter = 100;
-    int warmup = 0, iter = 1;
+    int warmup = 0, iter = 20;
     // int hidden_dim = 7168;
     int hidden_dim = 16;
     // std::vector<int> candidate_token_num{1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048};
