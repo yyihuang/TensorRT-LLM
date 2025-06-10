@@ -482,12 +482,12 @@ public:
         m_mpi_comm.barrier();
         for (int i = 0; i < warmup; ++i)
         {
-            (this->*func)(token_num, hidden_dim, num_active_expert);
+            (this->*func)(token_num, hidden_dim);
         }
         cudaEventRecord(begin, m_stream->get());
         for (int i = 0; i < iter; ++i)
         {
-            (this->*func)(token_num, hidden_dim, num_active_expert);
+            (this->*func)(token_num, hidden_dim);
         }
         cudaEventRecord(end, m_stream->get());
         cudaEventSynchronize(end);
@@ -649,7 +649,7 @@ TEST(Kernel, MoEReduceAddARFuse)
         for (auto act_exp_num : candidate_active_expert_num)
         {
             auto latency = runner.benchmark(
-                &MoEARFuseTestRunner<half>::run_kernel, warmup, iter, token_num, hidden_dim, act_exp_num);
+                &MoEARFuseTestRunner<half>::run_kernel, warmup, iter, token_num, hidden_dim);
             // runner.verify(token_num, hidden_dim, act_exp_num);
             // if (rank == 0)
             // {

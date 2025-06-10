@@ -26,6 +26,7 @@ if(NOT ENABLE_MULTI_DEVICE EQUAL 0)
   add_gtest(allReduceKernelTest allReduce/allReduceKernelTest.cu)
   add_gtest(allReduceFusionTest allReduce/allReduceFusionTest.cu)
   # add_gtest(gemmAllReduceTest allReduce/gemmAllReduceTest.cu)
+  add_gtest(moeAllReduceFusionTest allReduce/moeAllReduceFusionTest.cu)
 endif()
 
 add_gtest(
