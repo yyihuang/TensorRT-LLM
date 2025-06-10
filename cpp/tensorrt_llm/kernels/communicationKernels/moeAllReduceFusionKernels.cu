@@ -344,8 +344,8 @@ __global__ void moereduce_allreduce_fusion_kernel_oneshot_lamport(MoeReductionAl
             // STG.128 to remote rank
             reinterpret_cast<float4*>(comm.data_bufs[r])[params.rank * tot_access + idx]
                 = *reinterpret_cast<float4*>(val);
+            printf("Rank %d [%d-%d] store vec_t values at address %p for rank %d with flag %d \n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[r]) + params.rank * tot_access + idx, r, *comm.flag_ptr);
         }
-        printf("Rank %d [%d-%d] store vec_t values at address %p with flag %d \n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[r]) + params.rank * tot_access + idx, *comm.flag_ptr);
     }
 
     // * Clear previous buffer
