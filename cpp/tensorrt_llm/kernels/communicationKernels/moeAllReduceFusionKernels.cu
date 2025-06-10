@@ -370,9 +370,11 @@ __global__ void moereduce_allreduce_fusion_kernel_oneshot_lamport(MoeReductionAl
                 vals[r]
                     = ld_global_volatile(&reinterpret_cast<float4*>(comm.data_bufs[params.rank])[r * tot_access + idx]);
                 done &= !is_neg_zero(vals[r]);
+                if (done) {
+                    printf("Rank %d [%d-%d] get vec_t values at address %p for rank %d with flag %d\n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[params.rank]) + (r * tot_access + idx), r, *comm.flag_ptr);
+                }
             }
         }
-        printf("Rank %d [%d-%d] get vec_t values at address %p with flag %d\n", params.rank, blockIdx.x, threadIdx.x, reinterpret_cast<float4*>(comm.data_bufs[params.rank]) + (r * tot_access + idx), *comm.flag_ptr);
         float4 sum_val = vals[0];
 #pragma unroll
         for (int r = 1; r < NRanks; ++r)
